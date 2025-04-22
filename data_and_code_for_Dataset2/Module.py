@@ -152,16 +152,6 @@ class HGCMLDA(nn.Module):
         self.att_dis = MS_CAM()
         self.res_lnc=ResidualBlock(128)
         self.res_dis=ResidualBlock(128)
-        #self.cnn_dis = nn.Conv1d(in_channels=2,
-        #                       out_channels=80,
-        #                       kernel_size=128,
-        #                       stride=1,
-        #                       bias=True)
-        #self.cnn_lnc = nn.Conv1d(in_channels=2,
-        #                       out_channels=80,
-        #                       kernel_size=128,
-        #                       stride=1,
-        #                       bias=True)
         self.linear_L_3 = nn.Linear(256, 64)
         self.linear_D_3 = nn.Linear(256, 64)
         self.linear_L_1 = nn.Linear(128, 128)
