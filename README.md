@@ -1,6 +1,4 @@
 # HGCMLDA
 
-## Enviroment
->python==3.8  
-pytorch==1.13.1(GPU version)  
-numpy==1.24
+## Code and Data availability
+>The source code and data underlying this work are available at https://github.com/ZZQ-UCAS/HGCMLDA.
